@@ -20,6 +20,6 @@ function about() {
 function navContact() {
   const contactElem = document.querySelector();
   contactElem.addEventListener("click", () => {
-    app.innerHTML = Contact();
+    app.innerHTML = navContact();
   });
 }
