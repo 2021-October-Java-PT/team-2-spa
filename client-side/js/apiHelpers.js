@@ -23,3 +23,15 @@ function putRequest(location, requestBody, callback) {
       .then((jsonData) => callback(jsonData))
       .catch((err) => console.log(err));
   }
+  
+  function deleteRequest(location, callback) {
+    fetch(location, {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then((response) => response.json())
+      .then((jsonData) => callback(jsonData))
+      .catch((err) => console.log(err));
+  }
