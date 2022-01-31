@@ -10,7 +10,7 @@ public class NinjaTurtles {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private Long turtleId;
 
     private String name;
     private String artist;
@@ -19,7 +19,7 @@ public class NinjaTurtles {
     private String description;
 
     public Long getId() {
-        return id;
+        return turtleId;
     }
 
     public String getName(){
