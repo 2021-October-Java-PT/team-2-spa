@@ -49,3 +49,11 @@ function putRequest(location, requestBody, callback) {
     const setValue = newValue => value = newValue
     return [getValue, setValue];
   }
+  
+  export default {
+    getRequest,
+    postRequest,
+    putRequest,
+    deleteRequest,
+    useState
+  };
