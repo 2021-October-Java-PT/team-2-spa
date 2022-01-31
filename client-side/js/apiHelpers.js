@@ -35,3 +35,10 @@ function putRequest(location, requestBody, callback) {
       .then((jsonData) => callback(jsonData))
       .catch((err) => console.log(err));
   }
+
+  const useState = (defaultValue) => {
+    let value = defaultValue;
+    const getValue = () => value
+    const setValue = newValue => value = newValue
+    return [getValue, setValue];
+  }
