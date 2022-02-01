@@ -1,25 +1,25 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
+import about from "./components/about.js";
+import contact from "./components/contact.js";
 
 const app = document.querySelector("#app");
 
-pageStart();
+// pageStart();
 
-function pageStart() {
-  about();
-  contact();
-}
+// function pageStart() {
+//   about();
+//   contact();
+// }
 
-function about() {
-  const aboutElem = document.querySelector();
-  aboutElem.addEventListener("click", () => {
-    app.innerHTML = About();
-  });
-}
+// //function about() {
+//   const aboutElem = document.querySelector("#app");
+//   aboutElem.addEventListener("click", () => {
+//     app.innerHTML = about();
+//   });
+// }
 
-function navContact() {
-  const contactElem = document.querySelector();
-  contactElem.addEventListener("click", () => {
-    app.innerHTML = navContact();
-  });
-}
+// function contact() {
+//   const contactElem = document.querySelector("#app");
+//   contactElem.addEventListener("click", () => {
+//     app.innerHTML = contact();
+//   });
+// }
