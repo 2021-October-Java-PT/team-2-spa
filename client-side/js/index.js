@@ -1,6 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-
+//Jordan Waz Here
 const app = document.querySelector("#app");
 
 pageStart();
