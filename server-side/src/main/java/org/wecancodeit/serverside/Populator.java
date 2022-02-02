@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 @Component
 public class Populator implements CommandLineRunner {
 
-    private NinjaTurtlesRepository ninjaTurtlesRepository;
+    NinjaTurtlesRepository ninjaTurtlesRepository;
 
     @Override
     public void run(String... args) throws Exception {
