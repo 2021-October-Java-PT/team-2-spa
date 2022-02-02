@@ -16,16 +16,21 @@ public class Populator implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        NinjaTurtles michelangelo = new NinjaTurtles("Michaelangelo", "Michaelangelo", "//fill in fish", "Orange", "//fill in description");
+        NinjaTurtles michelangelo = new NinjaTurtles("Michaelangelo", "Michaelangelo", "//fill in fish", "Orange", "//fill in description", "//fill in image");
         ninjaTurtlesRepository.save(michelangelo);
 
-        NinjaTurtles leonardo = new NinjaTurtles("Leonardo", "Leonardo da Vinci", "//fill in fish", "Blue", "//fill in description");
+        NinjaTurtles leonardo = new NinjaTurtles("Leonardo", "Leonardo da Vinci", "//fill in fish", "Blue", "//fill in description", "//fill in image");
         ninjaTurtlesRepository.save(leonardo);
 
-        NinjaTurtles donatello = new NinjaTurtles("Donatello", "Donato di Niccolo di Betto Bardi aka Donatello", "//fill in fish", "Purple", "//fill in description");
+        NinjaTurtles donatello = new NinjaTurtles("Donatello", "Donato di Niccolo di Betto Bardi aka Donatello", "//fill in fish", "Purple", "//fill in description", "fill in image");
         ninjaTurtlesRepository.save(donatello);
 
-        NinjaTurtles raphael = new NinjaTurtles("Raphael", "Raffaello Sanzio da Urbino aka Raphael", "//fill in fish", "Red", "//fill in description");
+        NinjaTurtles raphael = new NinjaTurtles("Raphael", "Raffaello Sanzio da Urbino aka Raphael", "//fill in fish", "Red", "//fill in description", "fill in image");
+        ninjaTurtlesRepository.save(raphael);
+
+        ninjaTurtlesRepository.save(michelangelo);
+        ninjaTurtlesRepository.save(leonardo);
+        ninjaTurtlesRepository.save(donatello);
         ninjaTurtlesRepository.save(raphael);
     }
 }
