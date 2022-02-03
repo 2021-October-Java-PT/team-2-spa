@@ -68,7 +68,9 @@ export default function About() {
           <h2>Trey Browder</h2>
           <img class="headshot" src="" alt="Headshot" />
           <p class>
-            
+            I'm a software developer with 5 years experience in the personal training and fitness industry.  Some of my interestes include but
+            aren't limited to working out, running, snowboarding, hanging with friends, and listening to music.  One of my biggest hobbies is sitting 
+            down and learning about to programming languages and technologies. Also the Browns are winning the 2023 superbowl!
           </p>
           <a id="github" href="">
             <img  id="github" src="${gitHubImg}" alt="github" />
