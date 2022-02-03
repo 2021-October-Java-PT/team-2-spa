@@ -1,4 +1,4 @@
-import contactImg from '../../assets/contact.jpg';
+
 
 export default function Contact() {
     return `

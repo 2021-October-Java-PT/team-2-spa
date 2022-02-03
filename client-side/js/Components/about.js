@@ -2,6 +2,7 @@ import gitHubImg from "../../images/GitHub.png";
 import linkedInImg from "../../images/Li-in-Bug.png";
 import Ryan from "../../images/Ryanw.jpg";
 import Razak from "../../images/Rsaka img.jpg";
+import Trey from "../../images/Trey.jpg";
 
 
 
@@ -70,7 +71,7 @@ export default function About() {
         </section>
         <section id="treybrowder">
           <h2>Trey Browder</h2>
-          <img class="headshot" src="" alt="Headshot" />
+          <img class="Trey" src="${Trey}" alt="Headshot" />
           <p class>
             I'm a software developer with 5 years experience in the personal training and fitness industry.  Some of my interestes include but
             aren't limited to working out, running, snowboarding, hanging with friends, and listening to music.  One of my biggest hobbies is sitting 
