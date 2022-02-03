@@ -1,4 +1,4 @@
-import About from "./components/About";
+import about from "./components/About";
 import Contact from "./components/Contact";
 
 const app = document.querySelector("#app");
