@@ -27,15 +27,17 @@ function footer(){
 }
 
 function about() {
-  const aboutElem = document.querySelector();
+  const aboutElem = document.querySelector('.nav-list__aboutUs');
   aboutElem.addEventListener("click", () => {
-    app.innerHTML = About();
+    const app = document.querySelector('#app');
+    app.innerHTML = about();
   });
 }
 
 function contact() {
-  const contactElem = document.querySelector();
+  const contactElem = document.querySelector('.nav-list__contact');
   contactElem.addEventListener("click", () => {
-    app.innerHTML = navContact();
+    const app = document.querySelector('#app');
+    app.innerHTML = contact();
   });
 }
