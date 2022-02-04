@@ -22,12 +22,12 @@ function pageStart() {
 
 function header(){
   const headerElem = document.querySelector('.header');
-  headerElem.innerHTML = Header();
+  headerElem.innerHTML = header();
 }
 
 function footer(){
   const footerElem = document.querySelector('.footer');
-  footerElem.innerHTML = Feader();
+  footerElem.innerHTML = footer();
 }
 
 function about() {
