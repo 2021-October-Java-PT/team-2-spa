@@ -3,6 +3,7 @@ import contact from "./Components/Contact";
 import Header from "./Components/Header";
 import header from "./Components/Header";
 import footer from "./Components/Footer";
+import home from "./Components/home";
 
 const app = document.querySelector("#app");
 
@@ -13,7 +14,7 @@ function pageStart() {
   contact();
   header();
   footer();
-
+  home();
 }
 
 function header(){
@@ -40,4 +41,12 @@ function contact() {
     const app = document.querySelector('#app');
     app.innerHTML = contact();
   });
+}
+
+function home() {
+  const homeElem = document.querySelector('.nav-list__home');
+  homeElem.addEventListener('click', ()=> {
+    const app = document.querySelector('#app');
+    app.innerHTML = home();
+  })
 }
