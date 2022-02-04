@@ -1,6 +1,5 @@
 import about from "./Components/About";
 import contact from "./Components/Contact";
-import Header from "./Components/Header";
 import header from "./Components/Header";
 import footer from "./Components/Footer";
 import home from "./Components/home";
