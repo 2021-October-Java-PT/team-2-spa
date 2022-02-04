@@ -4,6 +4,9 @@ import Header from "./Components/Header";
 import header from "./Components/Header";
 import footer from "./Components/Footer";
 import home from "./Components/home";
+import NinjaTurtles from "./Components/NinjaTurtles";
+import Art from "./Components/Art";
+import apiHelpers from "./apiHelpers";
 
 const app = document.querySelector("#app");
 
@@ -49,4 +52,6 @@ function home() {
     const app = document.querySelector('#app');
     app.innerHTML = home();
   })
+
+  
 }
