@@ -1,10 +1,9 @@
-import gitHubImg from "../../images/GitHub.png";
-import linkedInImg from "../../images/Li-in-Bug.png";
-import Ryan from "../../images/Ryanw.jpg";
+import George from "../../images/Trey.jpg";
 import Razak from "../../images/Rsaka img.jpg";
+import Ryan from "../../images/Ryanw.jpg";
 import Trey from "../../images/Trey.jpg";
-
-
+import gitHubImg from "../../images/GitHub.png";
+import linkedInImg from "../../images/George.webp";
 
 export default function About() {
   return `
