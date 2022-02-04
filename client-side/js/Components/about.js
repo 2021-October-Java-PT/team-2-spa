@@ -1,10 +1,9 @@
+import George from "../../images/George.webp";
+import Razak from "../../images/Rsaka img.jpg";
+import Ryan from "../../images/Ryanw.jpg";
+import Trey from "../../images/Trey.jpg";
 import gitHubImg from "../../images/GitHub.png";
 import linkedInImg from "../../images/Li-in-Bug.png";
-import Ryan from "../../images/Ryanw.jpg";
-import Razak from "../../images/Rsaka img.jpg";
-import Trey from "../../images/Trey.jpg";
-
-
 
 export default function About() {
   return `
@@ -30,7 +29,8 @@ export default function About() {
           <h2>George Avent </h2>
           <img class="headshot" src="${George}" alt="Headshot" />
           <p class>
-           
+          A technology enthusiast who excels in being a team player with substantial experience in customer service.  Adept in writing code and creating systems that are reliable and user-friendly. Enjoys the challenge of solving puzzles in technology specifically using Java
+
           </p>
           <a id="github" href=" ">
             <img  id="github" src="${gitHubImg}" alt="github" />
