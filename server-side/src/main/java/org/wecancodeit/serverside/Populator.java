@@ -17,17 +17,10 @@ public class Populator implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        NinjaTurtles michelangelo = new NinjaTurtles("Michaelangelo", "Michaelangelo", "//fill in fish", "Orange", "//fill in description", "//fill in image");
-        ninjaTurtlesRepository.save(michelangelo);
-
-        NinjaTurtles leonardo = new NinjaTurtles("Leonardo", "Leonardo da Vinci", "//fill in fish", "Blue", "//fill in description", "//fill in image");
-        ninjaTurtlesRepository.save(leonardo);
-
-        NinjaTurtles donatello = new NinjaTurtles("Donatello", "Donato di Niccolo di Betto Bardi aka Donatello", "//fill in fish", "Purple", "//fill in description", "fill in image");
-        ninjaTurtlesRepository.save(donatello);
-
-        NinjaTurtles raphael = new NinjaTurtles("Raphael", "Raffaello Sanzio da Urbino aka Raphael", "//fill in fish", "Red", "//fill in description", "fill in image");
-        ninjaTurtlesRepository.save(raphael);
+        NinjaTurtles michelangelo = new NinjaTurtles("Michaelangelo", "Orange", "image here");
+        NinjaTurtles leonardo = new NinjaTurtles("Leonardo", "Blue", "//image here");
+        NinjaTurtles donatello = new NinjaTurtles("Donatello", "Purple", "//image here");
+        NinjaTurtles raphael = new NinjaTurtles("Raphael", "Red", "image here");
 
         ninjaTurtlesRepository.save(michelangelo);
         ninjaTurtlesRepository.save(leonardo);

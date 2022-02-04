@@ -47,10 +47,6 @@ public class NinjaTurtlesRestController {
         boolean ninjaTurtlesIsSelected = newNinjaTurtles.getBoolean("isSelected");
         Optional<NinjaTurtles> ninjaTurtlesToSelectOpt = ninjaTurtlesRepository.findById(turtleId);
 
-        if(ninjaTurtlesToSelectOpt.isPresent()) {
-            ninjaTurtlesToSelectOpt.get().setSelected(ninjaTurtlesIsSelected);
-            ninjaTurtlesRepository.save(ninjaTurtlesToSelectOpt.get());
-        }
         return (Collection<NinjaTurtles>) ninjaTurtlesRepository.findAll();
     }
 
